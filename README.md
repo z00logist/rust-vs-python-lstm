@@ -30,7 +30,6 @@ The project uses English-Russian translation datasets from:
 │   │   ├── model.py          # LSTM model implementation
 │   │   ├── preprocess.py     # Data preprocessing
 │   │   ├── train.py          # Training and evaluation
-│   ├── requirements.txt      # Python dependencies
 │   ├── pyproject.toml        # Python project configuration
 ├── rust_lstm/                # Rust implementation
 │   ├── src/
