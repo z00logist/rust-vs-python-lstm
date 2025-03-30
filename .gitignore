@@ -172,3 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+python_metrics.txt
+rust_metrics.txt
+.python-version
