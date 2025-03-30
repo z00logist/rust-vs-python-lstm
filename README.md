@@ -45,23 +45,6 @@ The project uses English-Russian translation datasets from:
 ├── README.md                 # This file
 ```
 
-## Running with Docker
-
-### Prerequisites
-- Docker installed on your system
-
-### Building the Docker Image
-```bash
-docker build -t lstm-comparison .
-```
-
-### Running the Comparison
-```bash
-docker run --gpus all -it lstm-comparison
-```
-
-> Note: The `--gpus all` flag is required for GPU support. Remove it if you want to run on CPU only.
-
 ## Running Locally
 
 ### Python Implementation
