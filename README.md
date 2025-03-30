@@ -56,12 +56,12 @@ cd python_lstm
 
 2. Install dependencies:
 ```bash
-pip install -r requirements.txt
+uv sync
 ```
 
 3. Run the model:
 ```bash
-python src/train.py --data-path "../data/en-ru.tsv" --batch-size 256 --epochs 10
+uv run python src/train.py --data-path "../data/en-ru.tsv" --batch-size 256 --epochs 10
 ```
 
 ### Rust Implementation
