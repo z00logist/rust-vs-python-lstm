@@ -1,0 +1,12 @@
+[package]
+name = "rust_lstm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tch = "0.19.0"
+serde = "1.0"
+serde_json = "1.0"
+rand = "0.8"
+clap = { version = "4.5.34", features = ["derive"] }
+rustacuda = "0.1.3"
