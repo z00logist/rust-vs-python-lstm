@@ -88,7 +88,6 @@ Both implementations support the same command line options:
 - `--n-layers`: Number of LSTM layers (default: 1)
 - `--learning-rate`: Learning rate for optimizer (default: 0.001)
 - `--seed`: Random seed (default: 42)
-- `--device` (Python only): Device to run on ("cpu" or "cuda")
 - `--cuda-location` (Rust only): Path to CUDA libraries
 
 ## Performance Comparison
