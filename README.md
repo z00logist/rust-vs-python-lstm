@@ -115,7 +115,6 @@ Maximum resident set size (kbytes): 1296908
 
 Both implementations include:
 - Encoder-Decoder LSTM architecture
-- Attention mechanism
 - Teacher forcing during training
 - Bidirectional encoder
 - Evaluation using perplexity and sample translations
